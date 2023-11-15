@@ -22,7 +22,7 @@ int main(int argc, const char *argv[]) {
     }
 
 
-    fprintf(output, "}\n");
+    fprintf(output, "};\n");
     fclose(output);
     UnloadImage(input);
 
